@@ -1,0 +1,35 @@
+{
+    "name": "wallstreetio/laravel-ontraport",
+    "description": "A Laravel package to easily integrate the Ontraport API.",
+    "keywords": ["ontraport", "oap", "api", "laravel"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tamer Ashkar",
+            "email": "tashkar18@gmail.com"
+        }
+    ],
+    "require": {
+        "wallstreetio/ontraport": "^0.0.0",
+        "illuminate/support": "^5.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7",
+        "graham-campbell/testbench": "^3.3"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Wsio\\Tests\\Ontraport\\": "tests/"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Wsio\\Ontraport\\": "src/"
+        }
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "bash build/setup.sh"
+        ]
+    }
+}
