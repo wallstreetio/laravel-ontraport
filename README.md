@@ -17,7 +17,7 @@ composer require wallstreetio/laravel-ontraport
 
 ## Configuration
 
-Add `\Wsio\Ontraport\OntraportServiceProvider` to your `config/app.php` file.
+Add `\Wsio\Ontraport\OntraportServiceProvider` to your providers list in `config/app.php` file.
 
 ```php
     'providers' => [
@@ -39,7 +39,7 @@ Publish the configuration file.
 php artisan vendor:publish --provider="\Wsio\Ontraport\OntraportServiceProvider"
 ```
 
-Add your Ontraport APP_ID and API_KEY to your .env file.
+Add your Ontraport ONTRAPORT_APP_ID and ONTRAPORT_API_KEY to your `.env` file.
 
 ```env
 ONTRAPORT_APP_ID="your-ontraport-app-id"
