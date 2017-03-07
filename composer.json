@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "wallstreetio/ontraport": "^0.0.0",
+        "wallstreetio/ontraport": "0.1.*",
         "illuminate/support": "^5.1"
     },
     "require-dev": {
