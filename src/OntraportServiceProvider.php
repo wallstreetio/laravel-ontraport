@@ -2,7 +2,6 @@
 
 namespace Wsio\Ontraport;
 
-use Wsio\Ontraport\Ontraport;
 use Illuminate\Support\ServiceProvider;
 
 class OntraportServiceProvider extends ServiceProvider
