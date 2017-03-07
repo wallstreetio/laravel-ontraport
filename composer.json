@@ -31,5 +31,7 @@
         "post-install-cmd": [
             "bash build/setup.sh"
         ]
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
