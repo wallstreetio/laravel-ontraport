@@ -39,7 +39,7 @@ Publish the configuration file.
 php artisan vendor:publish --provider="\Wsio\Ontraport\OntraportServiceProvider"
 ```
 
-Add your Ontraport ONTRAPORT_APP_ID and ONTRAPORT_API_KEY to your `.env` file.
+Add your Ontraport `ONTRAPORT_APP_ID` and `ONTRAPORT_API_KEY` to your `.env` file.
 
 ```env
 ONTRAPORT_APP_ID="your-ontraport-app-id"
