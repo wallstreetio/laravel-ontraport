@@ -36,7 +36,7 @@ Optionally, you may also add the Ontraport facade to your aliases list.
 Publish the configuration file.
 
 ```bash
-php artisan vendor:publish --provider="\Wsio\Ontraport\OntraportServiceProvider"
+php artisan vendor:publish --provider="Wsio\Ontraport\OntraportServiceProvider"
 ```
 
 Add your Ontraport `ONTRAPORT_APP_ID` and `ONTRAPORT_API_KEY` to your `.env` file.
