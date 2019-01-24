@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b56cd3bbcdd17c8dd719d9e7a6d68514",
-    "content-hash": "00aac3de53f437fcc35db0ecddb4f2ca",
+    "hash": "84eeda51d6a67c2d137a6767c330d1dd",
+    "content-hash": "e81682904f16925e45d46353a0c1da1b",
     "packages": [
         {
             "name": "doctrine/inflector",
@@ -1581,16 +1581,16 @@
         },
         {
             "name": "wallstreetio/ontraport",
-            "version": "v1.0",
+            "version": "v1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wallstreetio/ontraport.git",
-                "reference": "59459606ab2ba5609d3a06cda2872eb59330c1b5"
+                "reference": "55467fd63637083f76e497897af4aee13fc2c8b1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wallstreetio/ontraport/zipball/59459606ab2ba5609d3a06cda2872eb59330c1b5",
-                "reference": "59459606ab2ba5609d3a06cda2872eb59330c1b5",
+                "url": "https://api.github.com/repos/wallstreetio/ontraport/zipball/55467fd63637083f76e497897af4aee13fc2c8b1",
+                "reference": "55467fd63637083f76e497897af4aee13fc2c8b1",
                 "shasum": ""
             },
             "require": {
@@ -1624,7 +1624,7 @@
                 "ontraport",
                 "php"
             ],
-            "time": "2017-08-22 22:57:31"
+            "time": "2019-01-24 20:21:36"
         }
     ],
     "packages-dev": [
