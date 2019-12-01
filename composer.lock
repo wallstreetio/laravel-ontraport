@@ -1957,7 +1957,7 @@
         },
         {
             "name": "wallstreetio/ontraport",
-            "version": "v1.0.1",
+            "version": "v1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wallstreetio/ontraport.git",
